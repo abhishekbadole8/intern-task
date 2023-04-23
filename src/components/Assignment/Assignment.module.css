@@ -1,0 +1,88 @@
+.moduleContainer {
+    display: flex;
+}
+
+.assignmentContainer {
+    width: 76.5vw;
+    height: 84vh;
+    padding: 4.5% 5.5%;
+    background-color: rgb(238, 241, 243);
+    font-family: 'Roboto', sans-serif;
+}
+
+.assignmenttopBox {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2.5vh;
+}
+.assignmenttopleftBox h1{
+    padding-bottom: 1vh;
+}
+.assignmenttopleftBox  p{
+    font-size: .9rem;
+}
+.assignmenttoprightBox{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+.assignmenttoprightBox h5{
+    font-size: 1.2rem;
+}
+.assignmenttoprightBox p{
+    font-size: .9rem;
+}
+.assignmentdownBox {
+    width: 90%;
+    height: 19vh;
+    border-radius: 5px;
+    border: 1px solid skyblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 6%;
+    margin-top: 3vh;
+    box-shadow: 2px 2px 20px -8px;
+}
+
+.assignmentleftBox {
+    width: 49%;
+    height: 10vh;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+   
+    border-right: 1px solid grey;
+}
+.assignmentleftBox h3{
+    font-size: 2rem;
+    color: grey;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+.assignmentrightBox {
+    display: flex;
+    gap: 2vw;
+}
+
+.assignmentrightBox img {
+    width: 21px;
+    height: 21px;
+}
+
+.assignmentStartHead,
+.assignmentdueHead {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.assignmentStartDate,
+.assignmentStartTime,
+.assignmentdueDate,
+.assignmentdueTime {
+    display: flex;
+    align-items: center;
+    gap: .6vw;
+}

@@ -1,0 +1,81 @@
+.quizContainer {
+    font-family: 'Roboto', sans-serif;
+    width: 76.5vw;
+    height: 84vh;
+    padding: 4.5% 5.5%;
+    background-color: rgb(238, 241, 243);
+}
+
+.moduleContainer {
+    display: flex;
+}
+
+.quiztopBox {
+    padding-bottom: 2.5vh;
+}
+
+.quiztopBox h1 {
+    padding-bottom: 1vh;
+}
+
+.quiztopBox p {
+    font-size: .9rem;
+    font-weight: 400;
+}
+
+/* DownBox here */
+.quizdownBox {
+    width: 90%;
+    height: 19vh;
+    border-radius: 5px;
+    border: 1px solid skyblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 6%;
+    margin-top: 3vh;
+    box-shadow: 2px 2px 20px -8px;
+
+}
+
+.quizleftBox {
+    width: 49%;
+    height: 10vh;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    border-right: 1px solid grey;
+}
+
+.quizleftBox h3 {
+    font-size: 2rem;
+    color: grey;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+.quizrightBox {
+    display: flex;
+    gap: 2vw;
+}
+
+.quizrightBox img {
+    width: 21px;
+    height: 21px;
+}
+
+.quizStartHead,
+.quizdueHead {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.quizStartDate,
+.quizStartTime,
+.quizdueDate,
+.quizdueTime {
+    display: flex;
+    align-items: center;
+    gap: .6vw;
+}

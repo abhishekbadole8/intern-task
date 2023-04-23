@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.informationContainer {
+    width: 86vw;
+    height: 84vh;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 3%;
+    padding-left: 5vw;
+
+}
+
+.informationContainer img {
+    width: 80px;
+    height: 80px;
+}
+
+/* First box */
+.certificationBox {
+    margin-bottom: 2.5vh;
+   
+}
+
+.certificationBox h2 {
+    margin-bottom: 2.5vh;
+}
+
+.modleDetailsTag {
+    color: skyblue;
+    font-weight: 600;
+    margin-bottom: 1vh;
+}
+
+.certificationContainer {
+    width: 85%;
+    height: 19vh;
+    border-radius: 5px;
+    border: 1px solid skyblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 2px 2px 20px -8px;
+    padding-top: 1vh ;
+    padding-bottom: 1vh ;
+}
+
+.certificationSecondBox {
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.certificationSecondBox h4 {
+    font-size: 1.2rem;
+}
+
+.certificationAttempt {
+    background-color: rgb(173, 170, 170);
+}
+
+.certificationCompleted {
+    background-color: skyblue;
+}
+
+.certificationAttempt,
+.certificationCompleted {
+    width: 115%;
+    border-radius: 25px;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.certificationThirdBox {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.round {
+    display: flex;
+    gap: .75vw;
+}
+
+.round span {
+    padding-left: .5vw;
+    padding-right: .5vw;
+    border-radius: 25px;
+    text-align: center;
+    background-color: grey;
+}
+
+.certificationFourthBox label {
+    border-radius: 25px;
+    padding: 7px 9px;
+    color: skyblue;
+    border: 2px solid skyblue;
+}
+
+.certificationFourthBox label:hover {
+    cursor: pointer;
+    color: white;
+    background-color: skyblue;
+}
+
+/* Bottom Container */
+
+.continuelearningBox {
+    width: 80vw;
+    height: 40vh;
+    margin-top: 2.5vh;
+}
+
+.continuelearningBox h2 {
+    margin-bottom: 2.5vh;
+
+}
+
+.learningContainer {
+    height: 37vh;
+    display: flex;
+    gap: 2vw;
+    border-radius: 5px;
+}
+
+.modleDetails {
+    display: flex;
+    width: 80%;
+    height: 37vh;
+    border-radius: 5px;
+    border: 1px solid skyblue;
+    box-shadow: 2px 2px 20px -8px;
+
+}
+
+
+.testBox {
+    width: 57%;
+    display: flex;
+    gap: 3vh;
+    flex-direction: column;
+    border-right: 2px solid skyblue;
+    padding-top: 2vw;
+    padding-left: 3vw;
+    padding-right: 4vw;
+}
+
+.topBox {
+    width: 75%;
+    display: flex;
+    gap: 1vw;
+}
+
+.testProgressBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 2vh;
+}
+
+.taskTags {
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+
+.scoreTags {
+    width: 12vw;
+    color: skyblue;
+}
+
+.scoreTags p {
+    font-size: .75rem;
+    border-bottom: 6px solid skyblue;
+}
+
+/* Second Box */
+.todayPlanBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2vh;
+    padding-top: 2vw;
+    padding-left: 3vw;
+}
+
+.feedback {
+    display: flex;
+    gap: 5vw;
+}
+
+.feedback span {
+    color: blue;
+}
+
+.sessionDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    align-items: center;
+}
+
+.sessionDetails label {
+    padding: 12px;
+    width: 110%;
+    border-radius: 30px;
+    text-align: center;
+    background-color: grey;
+}
+
+/* Third Box */
+.progressBox {
+    width: 22vw;
+    border-radius: 5px;
+    border: 1px solid skyblue;
+    padding: 2vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    box-shadow: 2px 2px 20px -8px;
+
+}
+
+.gradeBox {
+    padding: 10px 15px 0 15px;
+    border-radius: 5px;
+    border: 1px solid skyblue;
+}
+
+.gradeBorderBox {
+    height: 100%;
+    padding: 7px 1px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 7px solid rgb(204, 165, 165);
+}
+
+.detailedProgress {
+    color: skyblue;
+    font-weight: 600;
+}

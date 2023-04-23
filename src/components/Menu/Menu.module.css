@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menuContainer {
+    width: 7.5vw;
+    height: 84vh;
+    color: white;
+    background-color: rgb(32, 32, 117);
+    font-family: 'Roboto', sans-serif;
+}
+
+.menuBox {
+    width: 100%;
+    height: 9vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.activeMenuBox {
+    width: 100%;
+    height: 9vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(226, 239, 244);
+    color: rgb(32, 32, 117);
+}
+
+.menuBox:hover {
+    color: rgb(32, 32, 117);
+    background-color: rgb(226, 239, 244);
+}
+
+Link:link {
+    text-decoration: none;
+}
+
+.textlink {
+    color: inherit;
+    text-decoration: inherit;
+}
