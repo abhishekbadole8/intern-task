@@ -4,8 +4,11 @@ import Navbar from "../../components/Navbar/Navbar";
 import SubMenu from "../../components/SubMenu/SubMenu";
 import Topic from "../../components/Topic/Topic";
 import Styles from "./Module.module.css";
+import { useState } from "react";
 
 function Module() {
+ 
+
     return (
         <>
             <Navbar />

@@ -5,10 +5,13 @@
 }
 
 .botContainer {
+    cursor: pointer;
     display: flex;
     align-items: flex-end;
-
     padding-bottom: 2vh;
+    position: absolute;
+    top: 87.5vh;
+    left: 93.5vw;
 }
 
 .botBackCover {

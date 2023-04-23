@@ -5,6 +5,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import SubMenu from "../../components/SubMenu/SubMenu";
 import calander from "../../assets/calendar.svg"
 import clock from "../../assets/clock-blue.svg"
+import Bot from "../Bot/Bot";
 
 function Topic() {
     return (
@@ -89,7 +90,9 @@ function Topic() {
 
                     </div>
                 </div>
+
             </div>
+                <Bot />
 
         </>
     )

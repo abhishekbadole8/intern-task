@@ -15,7 +15,9 @@ function Homepage() {
             <Navbar />
             <Header setToggle={setToggle} toggleName={toggleName} />
             {toggleName ?
-                <NavItems setToggle={setToggle} /> : ""}
+                <NavItems setToggle={setToggle} />
+                : ""
+            }
 
             <div className={Styles.midContainer}>
                 <Menu />

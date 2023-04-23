@@ -13,6 +13,7 @@ function Topic() {
         <>
             <Navbar />
             <Header />
+           
 
             <div className={Styles.moduleContainer}>
                 <Menu />
@@ -59,8 +60,9 @@ function Topic() {
                     </div>
 
                 </div>
-                <Bot className={Styles.botPosition}/>
+                <Bot />
             </div>
+            
 
         </>
     )

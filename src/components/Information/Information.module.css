@@ -21,7 +21,7 @@
 /* First box */
 .certificationBox {
     margin-bottom: 2.5vh;
-   
+
 }
 
 .certificationBox h2 {
@@ -29,6 +29,9 @@
 }
 
 .modleDetailsTag {
+    display: block;
+    width: 57vw;
+    text-align: right;
     color: skyblue;
     font-weight: 600;
     margin-bottom: 1vh;
@@ -43,8 +46,8 @@
     justify-content: space-around;
     align-items: center;
     box-shadow: 2px 2px 20px -8px;
-    padding-top: 1vh ;
-    padding-bottom: 1vh ;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
 }
 
 .certificationSecondBox {
@@ -56,24 +59,25 @@
 
 .certificationSecondBox h4 {
     font-size: 1.2rem;
+    font-weight: 200;
 }
 
 .certificationAttempt {
-    background-color: rgb(173, 170, 170);
+    background-color: rgb(203, 200, 200);
 }
 
 .certificationCompleted {
-    background-color: skyblue;
+    background-color: rgb(189, 224, 238);
 }
 
 .certificationAttempt,
 .certificationCompleted {
     width: 115%;
     border-radius: 25px;
-    padding-left: 1vw;
-    padding-right: 1vw;
+    padding: 4px;
     display: flex;
     justify-content: space-around;
+
 }
 
 .certificationThirdBox {
@@ -88,11 +92,15 @@
 }
 
 .round span {
-    padding-left: .5vw;
-    padding-right: .5vw;
+    padding: 4px 9px;
     border-radius: 25px;
     text-align: center;
-    background-color: grey;
+    font-weight: 500;
+    background-color: rgb(177, 177, 177);
+    font-size: .85rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .certificationFourthBox label {

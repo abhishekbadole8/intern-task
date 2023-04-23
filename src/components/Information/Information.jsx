@@ -20,7 +20,7 @@ function Information() {
                             <span>|</span>
                             <span>ATTEMPT 1</span>
                         </div>
-                        <h4>DATA ANALYSIS CERTIFICATION</h4>
+                        <h4>DATA  ANALYSIS  CERTIFICATION</h4>
                         <div className={Styles.certificationCompleted}>
                             <span>COMPLETED</span>
                             <span>|</span>

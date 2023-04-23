@@ -41,7 +41,7 @@ function Menu() {
 
             </Link>
 
-            <Link to={"/#"} className={Styles.textlink}>
+            <Link to={"/Instructor"} className={Styles.textlink}>
                 {(location.pathname.includes("Instructor")) ?
 
                     <div className={Styles.activeMenuBox}>

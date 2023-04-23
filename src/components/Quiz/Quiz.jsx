@@ -5,6 +5,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import SubMenu from "../../components/SubMenu/SubMenu";
 import calander from "../../assets/calendar.svg"
 import clock from "../../assets/clock-blue.svg"
+import Bot from "../Bot/Bot";
 
 function Topic() {
     return (
@@ -51,11 +52,11 @@ function Topic() {
                             <div className={Styles.quizStartHead}>
                                 <p>Start</p>
                                 <div className={Styles.quizStartDate}>
-                                <img src={calander} alt="calender-icon" />
+                                    <img src={calander} alt="calender-icon" />
                                     <p>16 Dec 2021</p>
                                 </div>
                                 <div className={Styles.quizStartTime}>
-                                <img src={clock} alt="clock-icon" />
+                                    <img src={clock} alt="clock-icon" />
                                     <p>07:30 PM</p>
                                 </div>
                             </div>
@@ -64,11 +65,11 @@ function Topic() {
                             <div className={Styles.quizdueHead}>
                                 <p>Start</p>
                                 <div className={Styles.quizdueDate}>
-                                <img src={calander} alt="calender-icon" />
+                                    <img src={calander} alt="calender-icon" />
                                     <p>19 Dec 2021</p>
                                 </div>
                                 <div className={Styles.quizdueTime}>
-                                <img src={clock} alt="clock-icon" />
+                                    <img src={clock} alt="clock-icon" />
                                     <p>11:59 PM</p>
                                 </div>
                             </div>
@@ -77,7 +78,7 @@ function Topic() {
                     </div>
                 </div>
             </div>
-
+            <Bot />
         </>
     )
 }
